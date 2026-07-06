@@ -1,13 +1,13 @@
-# easy_localization_generator
+# easy_localization_gsheet
 
-[![Pub](https://img.shields.io/pub/v/easy_localization_generator.svg)](https://pub.dev/packages/easy_localization_generator)
-![Code Climate issues](https://img.shields.io/github/issues/rinlv/easy_localization_generator?style=flat-square)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/rinlv/easy_localization_generator?style=flat-square)
-![GitHub contributors](https://img.shields.io/github/contributors/rinlv/easy_localization_generator?style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/rinlv/easy_localization_generator?style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/rinlv/easy_localization_generator?style=flat-square)
-![GitHub stars](https://img.shields.io/github/stars/rinlv/easy_localization_generator?style=flat-square)
-![GitHub license](https://img.shields.io/github/license/rinlv/easy_localization_generator?style=flat-square)
+[![Pub](https://img.shields.io/pub/v/easy_localization_gsheet.svg)](https://pub.dev/packages/easy_localization_gsheet)
+![Code Climate issues](https://img.shields.io/github/issues/BansookNam/easy_localization_gsheet?style=flat-square)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/BansookNam/easy_localization_gsheet?style=flat-square)
+![GitHub contributors](https://img.shields.io/github/contributors/BansookNam/easy_localization_gsheet?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/BansookNam/easy_localization_gsheet?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/BansookNam/easy_localization_gsheet?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/BansookNam/easy_localization_gsheet?style=flat-square)
+![GitHub license](https://img.shields.io/github/license/BansookNam/easy_localization_gsheet?style=flat-square)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 
 ## Easy Localization Generator
@@ -27,7 +27,7 @@ dependencies:
 
 dev_dependencies:
   build_runner: <last_version>
-  easy_localization_generator: <last_version>
+  easy_localization_gsheet: <last_version>
 ```
 
 ### 🔌 Usage
@@ -51,7 +51,7 @@ Declare the following `_Strings` class with the `SheetLocalization` annotation p
 ``` dart
 import 'dart:ui';
 
-import 'package:easy_localization_generator/easy_localization_generator.dart';
+import 'package:easy_localization_gsheet/easy_localization_gsheet.dart';
 
 part 'strings.g.dart';
 
@@ -83,7 +83,7 @@ Run the following command to generate a `lib/localization/strings.g.dart` file :
 flutter pub run build_runner build --delete-conflicting-outputs
 ```
 
-Sample of [strings.g.dart](https://github.com/rinlv/easy_localization_generator/blob/main/example/lib/localization/strings.g.dart)
+Sample of [strings.g.dart](https://github.com/BansookNam/easy_localization_gsheet/blob/main/example/lib/localization/strings.g.dart)
 
 #### 4. Configure your app
 Config step by step following this tutorial from [README.md of easy_localization ](https://github.com/aissat/easy_localization/blob/develop/README.md)

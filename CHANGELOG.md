@@ -1,4 +1,5 @@
 ## [0.3.5]
+- Renamed package to `easy_localization_gsheet`
 - Upgrade packages to latest
 - Merged PR [#22](https://github.com/rinlv/easy_localization_generator/pull/22)
 
